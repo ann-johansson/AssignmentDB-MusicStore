@@ -3,17 +3,17 @@ USE GameStoreDB;
 INSERT INTO Customer (
 CustomerName, CustomerLastname, CustomerStreet, CustomerZIP, CustomerCity, CustomerPhone, PaymentInfo, CustomerEmail)
 VALUES 
-('Henrietta', 'Hansson', 'Hamngatan 1', '12345', 'Falköping', '070-1234567', 'VISA-9876', 'henny@penny.com'),
-('Erik', 'Lindgren', 'Björnvägen 22', '45678', 'Göteborg', '072-9876543', 'Master-1122', 'erik.l@mail.se'),
-('Olle', 'Persson', 'Kungsallén 5', '77788', 'Malmö', '076-1110099', 'Faktura', 'persson_o@online.net'),
-('Maria', 'Jönsson', 'Åkersvägen 7', '65432', 'Uppsala', '070-0012345', 'Amex-4455', 'maria.j@uppsala.nu'),
-('Viktor', 'Svensson', 'Solvägen 8', '90909', 'Luleå', '079-8877665', 'Klarna', 'viktor.s@norr.se');
+('Henrietta', 'Hansson', 'Hamngatan 1', '12345', 'FalkÃ¶ping', '070-1234567', 'VISA-9876', 'henny@penny.com'),
+('Erik', 'Lindgren', 'BjÃ¶rnvÃ¤gen 22', '45678', 'GÃ¶teborg', '072-9876543', 'Master-1122', 'erik.l@mail.se'),
+('Olle', 'Persson', 'KungsallÃ©n 5', '77788', 'MalmÃ¶', '076-1110099', 'Faktura', 'persson_o@online.net'),
+('Maria', 'JÃ¶nsson', 'Ã…kersvÃ¤gen 7', '65432', 'Uppsala', '070-0012345', 'Amex-4455', 'maria.j@uppsala.nu'),
+('Viktor', 'Svensson', 'SolvÃ¤gen 8', '90909', 'LuleÃ¥', '079-8877665', 'Klarna', 'viktor.s@norr.se');
 
 INSERT INTO GameStore (
 Street, City, Country, Telephone, Email)
 VALUES
 ('Kungsgatan 12', 'Stockholm', 'Sweden', '08-1112233', 'sthlm@gamestore.se'),
-('Lilla Torg 5', 'Malmö', 'Sweden', '040-998877', 'malmo@gamestore.se');
+('Lilla Torg 5', 'MalmÃ¶', 'Sweden', '040-998877', 'malmo@gamestore.se');
 
 INSERT INTO Game (
 GameName, GamePlatform, Publisher, Price)
@@ -62,5 +62,5 @@ INSERT INTO Employee (
 Store_ID, JobRole, EmployeeName, EmployeeLastname, EmployeeStreet, EmployeeZIP, EmployeeCity, EmployeePhone, EmployeeEmail, BankInfo)
 VALUES
 (1, 'Manager', 'Adam', 'Berg', 'Storgatan 1', '10111', 'Stockholm', '070-1112233', 'adam.b@game.se', 'Swedbank-999'),
-(1, 'Sales Associate', 'Frida', 'Nilsson', 'Långa Gatan 3', '10111', 'Stockholm', '070-4445566', 'frida.n@game.se', 'Nordea-888'),
-(2, 'Manager', 'Linda', 'Åkesson', 'Södergatan 10', '20222', 'Malmö', '076-7778899', 'linda.a@game.se', 'Handelsbanken-777');
+(1, 'Sales Associate', 'Frida', 'Nilsson', 'LÃ¥nga Gatan 3', '10111', 'Stockholm', '070-4445566', 'frida.n@game.se', 'Nordea-888'),
+(2, 'Manager', 'Linda', 'Ã…kesson', 'SÃ¶dergatan 10', '20222', 'MalmÃ¶', '076-7778899', 'linda.a@game.se', 'Handelsbanken-777');
